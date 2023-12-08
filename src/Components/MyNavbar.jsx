@@ -6,7 +6,7 @@ import MainLogo from '../Assets/MetaGigStore_Full_White.png'
 function MyNavbar() {
   return (
     <>
-      <nav className="navbar">
+      <nav className="navbar ">
         <div className="navbar__logo">
           <img src={MainLogo} alt="MetaGigStore"/>
         </div>

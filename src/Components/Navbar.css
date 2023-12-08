@@ -1,3 +1,11 @@
+.secnavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5%;
+    background-color: #07012f;
+    color: #fff;
+  }
  .navbar-nav {
     display: flex;
     list-style-type: none;

@@ -1,18 +1,26 @@
 import React from 'react'
 import './Home.css'
+import { Imagecrousal } from './small-components/crousal'
 
 function Home() {
     const backgroundStyle = {
-        backgroundImage: 'url("src/Assets/hero-1.jpg")', 
+        background: 'linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, .85)), url("src/Assets/hero-1.jpg")', 
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        opacity: '0.5',
       };
   return (
     <>
-        <div className="h-screen" style={backgroundStyle}>
-
-        hii
+        <div className="h-screen flex flex-row" style={backgroundStyle}>
+            <div className="h-full flex flex-col justify-center px-20">
+                <h1 className="text-6xl text-white">MetaGigStore</h1>
+                <h2 className="text-3xl text-white">The best place to buy 3D models and HDRI's</h2>
+                <div className="flex flex-row py-5">
+                    <button className="bg-white text-black px-5 py-2 rounded-lg hover:bg-[#A7F432]">Shop Now</button>
+            </div>
+            </div>
+            <div className="h-4/5 w-1/2 my-20 py-20">
+                <Imagecrousal />
+            </div>
         </div>
     </>
   )
