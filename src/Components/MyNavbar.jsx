@@ -1,5 +1,6 @@
 import './nav.css';
-import SearchBar from './Searchbar';
+import MainLogo from '../Assets/MetaGigStore_Full_White.png'
+
 
 
 function MyNavbar() {
@@ -7,10 +8,10 @@ function MyNavbar() {
     <>
       <nav className="navbar">
         <div className="navbar__logo">
-          <img src="logo.png" alt="Logo" />
+          <img src={MainLogo} alt="MetaGigStore"/>
         </div>
         <div className="navbar__search">
-          <SearchBar />
+          
         </div>
         <div className="navbar__login">
           <button>Login</button>

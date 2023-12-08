@@ -5,12 +5,12 @@
     justify-content: space-between;
     align-items: center;
     padding: 5px 5%;
-    background-color: #333;
+    background-color: #07012f;
     color: #fff;
   }
   
   .navbar__logo img {
-    max-width: 100px;
+    max-width: 250px;
     height: auto;
   }
   
@@ -22,11 +22,17 @@
   
   
   .navbar__login button {
+    font-weight: bold;
     padding: 8px 12px;
     border-radius: 5px;
     border: none;
-    background-color: #28a745;
     color: #fff;
     cursor: pointer;
+  }
+  .navbar__login button:hover {
+    background-color: #A7F432;
+    color: #000;
+    transition: 0.2s;
+    transform: scale(1.1);
   }
       
