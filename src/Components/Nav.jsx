@@ -6,17 +6,17 @@ import './Navbar.css'
 function Nav() {
   return (
     <nav className="secnavbar">
-      <ul className="navbar-nav">
-        <li className="nav-item">
+      <ul className="navbar-nav divide-x">
+        <li className="nav-item pl-3">
           <a href="#" className="nav-link">What's New</a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item pl-3">
           <a href="#" className="nav-link">Models</a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item pl-3">
           <a href="#" className="nav-link">HDRI</a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item pl-3">
           <a href="#" className="nav-link">Free</a>
         </li>
       </ul>
