@@ -1,0 +1,32 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5%;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .navbar__logo img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .navbar__search input[type="text"] {
+    padding: 5px;
+    border-radius: 230px;
+    border: 1px solid #ccc;
+  }
+  
+  
+  .navbar__login button {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+  }
+      

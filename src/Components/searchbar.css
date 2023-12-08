@@ -1,0 +1,14 @@
+/* searchbar.css */
+
+/* Styling the form */
+
+
+.searchbar input[type=text]::placeholder {
+    color: black; 
+    text-align: center;
+}
+
+.searchbar input:focus {
+    border-color:rgb(40, 167, 69); /* Change the border color on focus */
+    box-shadow: 0 0 5px rgb(40, 167, 69); /* Add a shadow on focus */
+  } 
