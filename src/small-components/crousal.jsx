@@ -19,17 +19,17 @@ export function Imagecrousal() {
       )}
     >
       <img
-        src="src/Products/Room2.png"
+        src="src/ProductsImg/Room2.png"
         alt="image 1"
         className="h-full w-full object-cover"
       />
       <img
-        src="src/Products/Room1.png"
+        src="src/ProductsImg/Room1.png"
         alt="image 2"
         className="h-full w-full object-cover"
       />
       <img
-        src="src/Products/cyberpunk.png"
+        src="src/ProductsImg/cyberpunk.png"
         alt="image 3"
         className="h-full w-full object-cover"
       />
