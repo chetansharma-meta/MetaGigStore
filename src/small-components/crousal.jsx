@@ -18,6 +18,11 @@ export function Imagecrousal() {
         </div>
       )}
     >
+        <img
+          src="src/ProductsImg/cyberpunk.png"
+          alt="image 3"
+          className="h-full w-full object-cover"
+        />
       <img
         src="src/ProductsImg/Room2.png"
         alt="image 1"
@@ -26,11 +31,6 @@ export function Imagecrousal() {
       <img
         src="src/ProductsImg/Room1.png"
         alt="image 2"
-        className="h-full w-full object-cover"
-      />
-      <img
-        src="src/ProductsImg/cyberpunk.png"
-        alt="image 3"
         className="h-full w-full object-cover"
       />
     </Carousel>
