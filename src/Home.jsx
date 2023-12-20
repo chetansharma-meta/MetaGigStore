@@ -2,7 +2,6 @@
 import './Home.css'
 import { ImgWithBlurredCaption } from './small-components/ImageCaption';
 import { Imagecrousal } from './small-components/crousal'
-import ModelViewer  from './Components/3Dloader'
 
 
 function Home() {
@@ -34,7 +33,7 @@ function Home() {
 
 
 
-                        {/* <div className="hover:scale-110 hover:transition-all">
+                        <div className="hover:scale-110 hover:transition-all">
                             <div>
                                 <ImgWithBlurredCaption imgSRC="src/ExtraImages/papers.co-vu67-art-line-purple-red-pattern-29-wallpaper.jpg" capHead="FirstProduct" capDetail="This is my first product" capPrice="120/-" />
                             </div>
@@ -49,7 +48,7 @@ function Home() {
                             <div>
                                 <ImgWithBlurredCaption imgSRC="src/ExtraImages/papers.co-vu67-art-line-purple-red-pattern-29-wallpaper.jpg" capHead="FirstProduct" capDetail="This is my first product" capPrice="120/-" /></div>
 
-                        </div> */}
+                        </div>
                     </div>
                 </div>
             </div>
