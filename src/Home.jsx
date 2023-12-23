@@ -2,9 +2,14 @@
 import './Home.css'
 import { ImgWithBlurredCaption } from './small-components/ImageCaption';
 import { Imagecrousal } from './small-components/crousal'
+import ThreeAssetCard from './3Dcontent/render';
 
 
 function Home() {
+
+    const assetURL = 'src/3Dcontent/Chair.glb';
+
+    
     const backgroundStyle = {
         background: 'linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, .85)), url("src/Assets/hero-1.jpg")',
         backgroundSize: 'cover',
@@ -33,7 +38,7 @@ function Home() {
 
 
 
-                        <div className="hover:scale-110 hover:transition-all">
+                        {/* <div className="hover:scale-110 hover:transition-all">
                             <div>
                                 <ImgWithBlurredCaption imgSRC="src/ExtraImages/papers.co-vu67-art-line-purple-red-pattern-29-wallpaper.jpg" capHead="FirstProduct" capDetail="This is my first product" capPrice="120/-" />
                             </div>
@@ -48,7 +53,9 @@ function Home() {
                             <div>
                                 <ImgWithBlurredCaption imgSRC="src/ExtraImages/papers.co-vu67-art-line-purple-red-pattern-29-wallpaper.jpg" capHead="FirstProduct" capDetail="This is my first product" capPrice="120/-" /></div>
 
-                        </div>
+                        </div> */}
+
+                        <ThreeAssetCard asset={assetURL}/>
                     </div>
                 </div>
             </div>
