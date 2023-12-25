@@ -55,7 +55,7 @@ function Home() {
 
                         </div> */}
 
-                        {/* <ThreeAssetCard asset={assetURL}/> */}
+                        <ThreeAssetCard asset={assetURL}/>
                     </div>
                 </div>
             </div>
